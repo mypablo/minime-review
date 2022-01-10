@@ -1,6 +1,6 @@
 body{
 	background-color: #f9f9f9;
-	font-family: "monospace";
+	font-family: 'Open Sans';
 }
 
 .main{
@@ -9,8 +9,8 @@ body{
 
 .home-description{
 	font-style: italic;
-	font-weight: 600;
-	font-family: "monospace";
+	font-weight: 300;
+	font-family: 'Open Sans';
 	font-size: 19px;
     padding-top: 15px;
     padding-bottom: 25px;
@@ -52,11 +52,13 @@ body{
     	}
 
     	.info{
-			font-family: "monospace";
+			font-family: 'Open Sans';
 			line-height: 28px;
-		    font-size: 16px;
-		    padding-top: 15px;
-		    padding-right: 50px;
+			font-size: 16px;
+			font-size: 17px;
+			padding-top: 15px;
+			font-style: italic;
+			padding-right: 0px;
 		}
 		
 		.home-description{
@@ -71,19 +73,18 @@ body{
 .btn-rabbit{
 	background-color: #fff;
 	color: #111;
-	font-style: italic;
 	border: 1px solid #111;
 	border-radius: 0px !important;
 	transition: all 0.4s ease-in-out;
 	margin-bottom: 20px;
-	font-family: "monospace";
+	font-family: 'Open Sans';
 	font-size: 13px;
 	}
 
 .btn-rabbit:hover{
-	color: #fff;
-	background-color: #bb9e7d;
-	border-color: #bb9e7d;}
+	color: #1b1b1a;
+	background-color: #B9D9F0;
+	border-color: #1b1b1a;}
 
 p{
 	color: #585757;
@@ -93,18 +94,18 @@ p{
 
 .page-title{
 	text-transform: uppercase;
-	font-family: 'monospace';
+	font-family: 'Open Sans';
 }
 
 /*Home Style*/
 .logo{
 	padding-top: 100px;
-	text-transform: uppercase;
+	text-transform: lowercase;
 	font-size: 12px;
 }
 
 .logo h4{
-	font-family: 'monospace';
+	font-family: 'Open Sans';
 }
 
 
@@ -116,7 +117,7 @@ footer{
 
 .back{
     width: 170px;    
-    font-family: "monospace";
+    font-family: 'Open Sans';
     font-size: 17px;
     font-style: italic;
     vertical-align: middle;
@@ -146,11 +147,11 @@ footer{
 }
 
 .btn-group-vertical{
-    font-family: "monospace";
+    font-family: 'Open Sans';
 }
 
 .about{
-	font-family: "monospace";
+	font-family: 'Open Sans';
 	/*margin-top: 35px;*/
 	/*margin-bottom: 25px;*/
 	font-size: 32px;
@@ -159,14 +160,14 @@ footer{
 .form-control{
 	font-style: italic;
 	border-radius: 0;
-	font-family: "monospace";
+	font-family: 'Open Sans';
 	font-size: 16px;
 }
 
 .page-title{
 	
 	font-size: 32px;
-	font-family: "monospace";
+	font-family: 'Open Sans';
 }
 
 .fa-heartbeat{
@@ -174,8 +175,8 @@ footer{
 }
 
 ::selection {
-	color: #fff;
-   	background-color: #bb9e7d;
+	color: #1b1b1a;
+   	background-color: #B9D9F0;
 }
 
 .bottom{
@@ -202,7 +203,7 @@ footer{
 
 .submit{
 
-	font-family: "monospace";
+	font-family: 'Open Sans';
 	font-size: 16px;
 }
 
@@ -212,7 +213,7 @@ footer{
 	font-size: 20px;
 	color: #3b3b3b;
 	line-height: 28px;
-	font-family: "monospace";
+	font-family: 'Open Sans';
 	margin-top: 15px;
 	margin-bottom: 20px;
 	padding-right: 40px;
@@ -233,7 +234,7 @@ footer{
 	position: absolute;
 	font-size: 60px;
 	opacity: 0.1;
-	font-family: "monospace";
+	font-family: 'Open Sans';
 	text-transform: uppercase;
 	left: 0;
 	top: -5px;
@@ -294,8 +295,8 @@ footer{
 }
 
 .owl-theme .owl-controls .owl-nav [class*=owl-]:hover{
-	background-color: #bb9e7d;
-	border-color: #bb9e7d;
+	background-color: #B9D9F0;
+	border-color: #1b1b1a;
 }
 .owl-theme .owl-controls .owl-nav [class*=owl-]:hover i{
 	color: #fff;
