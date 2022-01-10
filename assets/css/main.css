@@ -1,6 +1,6 @@
 body{
 	background-color: #f9f9f9;
-	font-family: "Crimson Text";
+	font-family: "monospace";
 }
 
 .main{
@@ -10,7 +10,7 @@ body{
 .home-description{
 	font-style: italic;
 	font-weight: 600;
-	font-family: "Crimson";
+	font-family: "monospace";
 	font-size: 19px;
     padding-top: 15px;
     padding-bottom: 25px;
@@ -30,9 +30,9 @@ body{
 	}
 
 .social a:hover i{
-	color: #fff;
-	border-color: #bb9e7d;
-	background-color: #bb9e7d;
+	color: #1b1b1a;
+	border-color: #1b1b1a;
+	background-color: #B9D9F0;
 	}
 
 
@@ -52,7 +52,7 @@ body{
     	}
 
     	.info{
-			font-family: "Crimson";
+			font-family: "monospace";
 			line-height: 28px;
 		    font-size: 16px;
 		    padding-top: 15px;
@@ -76,7 +76,7 @@ body{
 	border-radius: 0px !important;
 	transition: all 0.4s ease-in-out;
 	margin-bottom: 20px;
-	font-family: "Crimson";
+	font-family: "monospace";
 	font-size: 13px;
 	}
 
@@ -93,7 +93,7 @@ p{
 
 .page-title{
 	text-transform: uppercase;
-	font-family: 'Josefin Sans';
+	font-family: 'monospace';
 }
 
 /*Home Style*/
@@ -104,7 +104,7 @@ p{
 }
 
 .logo h4{
-	font-family: 'Josefin Sans';
+	font-family: 'monospace';
 }
 
 
@@ -116,7 +116,7 @@ footer{
 
 .back{
     width: 170px;    
-    font-family: "Crimson";
+    font-family: "monospace";
     font-size: 17px;
     font-style: italic;
     vertical-align: middle;
@@ -146,11 +146,11 @@ footer{
 }
 
 .btn-group-vertical{
-    font-family: "Josefin Sans";    
+    font-family: "monospace";
 }
 
 .about{
-	font-family: "Josefin Sans";
+	font-family: "monospace";
 	/*margin-top: 35px;*/
 	/*margin-bottom: 25px;*/
 	font-size: 32px;
@@ -159,14 +159,14 @@ footer{
 .form-control{
 	font-style: italic;
 	border-radius: 0;
-	font-family: "Crimson";
+	font-family: "monospace";
 	font-size: 16px;
 }
 
 .page-title{
 	
 	font-size: 32px;
-	font-family: "Josefin Sans";
+	font-family: "monospace";
 }
 
 .fa-heartbeat{
@@ -202,17 +202,17 @@ footer{
 
 .submit{
 
-	font-family: "Crimson"
+	font-family: "monospace";
 	font-size: 16px;
 }
 
 .subtitle{
 	font-style: italic;
-	font-weight: 600;
+	font-weight: 300;
 	font-size: 20px;
 	color: #3b3b3b;
 	line-height: 28px;
-	font-family: "Crimson";
+	font-family: "monospace";
 	margin-top: 15px;
 	margin-bottom: 20px;
 	padding-right: 40px;
@@ -233,7 +233,7 @@ footer{
 	position: absolute;
 	font-size: 60px;
 	opacity: 0.1;
-	font-family: "Josefin Sans";
+	font-family: "monospace";
 	text-transform: uppercase;
 	left: 0;
 	top: -5px;
